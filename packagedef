@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////////////
+// Веб-сервис отдачи метрик Prometheus (GET /metrics).
+// Стек: prometheus, autumn, winow.
+////////////////////////////////////////////////////////////
+
+Описание.Имя("prometheus-metrics")
+	.Версия("1.0.0")
+	.Автор("Ivan Karlo")
+	.АдресАвтора("i.karlo@outlook.com")
+	.АдресРепозитория("https://github.com/yellow-hammer/prometheus-metrics")
+	.Описание("Веб-сервис с эндпоинтом GET /metrics для отдачи метрик в формате Prometheus. Autumn, Winow, библиотека prometheus.")
+	.ВерсияСреды("2.0.0")
+
+	.ВключитьФайл("docs")
+	.ВключитьФайл("oscript_modules")
+	.ВключитьФайл("src")
+	.ВключитьФайл("tasks")
+	.ВключитьФайл("tests")
+	.ВключитьФайл("autumn-properties.json")
+	.ВключитьФайл("CHANGELOG.md")
+	.ВключитьФайл("CONTRIBUTING.md")
+	.ВключитьФайл("LICENSE")
+	.ВключитьФайл("packagedef")
+	.ВключитьФайл("README.md")
+
+	.ЗависитОт("autumn")
+	.ЗависитОт("autumn-cli")
+	.ЗависитОт("fs")
+	.ЗависитОт("prometheus")
+	.ЗависитОт("winow")
+
+	.РазработкаЗависитОт("1commands")
+	.РазработкаЗависитОт("1testrunner")
+	.РазработкаЗависитОт("asserts")
+	.РазработкаЗависитОт("coverage")
+	.РазработкаЗависитОт("fs")
+
+	.ИсполняемыйФайл("src/main.os", "prometheus-metrics")
+;

@@ -1,0 +1,25 @@
+# Cursor
+.cursor/plans/
+.cursor/projects/
+
+# IDE
+.idea/
+.vscode/settings.json
+*.code-workspace
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# OneScript / opm (если в репо появятся тестовые проекты)
+oscript_modules/
+*.ospx
+built/
+out/
+
+# Логи и временные файлы
+*.log
+*~
