@@ -1,5 +1,9 @@
 # prometheus-metrics
 
+<!-- [![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1125412488.svg)](https://openyellow.org/grid?filter=top&repo=1125412488) -->
+[![telegram chat](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/wonder_yellow)
+[![Ask Devin](https://deepwiki.com/badge.svg)](https://app.devin.ai/org/yellow-hammer/wiki/yellow-hammer/prometheus-metrics)
+
 Веб-сервис с эндпоинтом **GET /metrics** для отдачи накопленных метрик в формате
 [Prometheus Text Format](https://prometheus.io/docs/instrumentation/exposition_formats/). Стек: библиотека
 [prometheus](https://github.com/yellow-hammer/prometheus), [Autumn](https://autumn-library.github.io/),
