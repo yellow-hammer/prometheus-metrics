@@ -2,7 +2,7 @@
 
 [![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1181547650.svg)](https://openyellow.org/grid?filter=top&repo=1181547650)
 [![telegram chat](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/wonder_yellow)
-[![Ask Devin](https://deepwiki.com/badge.svg)](https://app.devin.ai/org/yellow-hammer/wiki/yellow-hammer/prometheus-metrics)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yellow-hammer/prometheus-metrics)
 
 Веб-сервис с эндпоинтом **GET /metrics** для отдачи накопленных метрик в формате
 [Prometheus Text Format](https://prometheus.io/docs/instrumentation/exposition_formats/). Стек: библиотека
