@@ -1,6 +1,6 @@
 # prometheus-metrics
 
-<!-- [![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1125412488.svg)](https://openyellow.org/grid?filter=top&repo=1125412488) -->
+[![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1181547650.svg)](https://openyellow.org/grid?filter=top&repo=1181547650)
 [![telegram chat](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/wonder_yellow)
 [![Ask Devin](https://deepwiki.com/badge.svg)](https://app.devin.ai/org/yellow-hammer/wiki/yellow-hammer/prometheus-metrics)
 
