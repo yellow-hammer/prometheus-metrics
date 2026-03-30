@@ -5,6 +5,13 @@
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 и этот проект придерживается [Semantic Versioning](https://semver.org/lang/ru/).
 
+## [1.0.4] - 2026-03-30
+
+### Изменено
+
+- Демо-метрики `prometheus_client_up`, `prometheus_client_http_requests_total` (лейбл `handler="/metrics"`); обновлён
+  пример вывода в документации продукта.
+
 ## [1.0.3] - 2026-03-24
 
 ### Исправлено
