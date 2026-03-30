@@ -22,15 +22,15 @@
 6. В браузере открыть `http://localhost:3333/metrics` — страница с текстом метрик в формате Prometheus.
 7. Встроить собственные метрики с помощью библиотеки [prometheus](https://github.com/yellow-hammer/prometheus)
 
-**Быстрая проверка:** `opm install prometheus-metrics`, затем `prometheus-metrics demo`. В браузере открыть `http://localhost:9200/metrics` — увидите текст метрик (счётчики, `app_up` и т.д.).
+**Быстрая проверка:** `opm install prometheus-metrics`, затем `prometheus-metrics demo`. В браузере открыть `http://localhost:9200/metrics` — увидите текст метрик (счётчики, `prometheus_client_up` и т.д.).
 
 ```sh
-# HELP app_up Приложение запущено (1)
-# TYPE app_up gauge
-app_up 1
-# HELP metrics_requests_total Число запросов к эндпоинту /metrics
-# TYPE metrics_requests_total counter
-metrics_requests_total 1
+# HELP prometheus_client_up Клиент Prometheus: приложение отвечает (1)
+# TYPE prometheus_client_up gauge
+prometheus_client_up 1
+# HELP prometheus_client_http_requests_total Число HTTP-запросов к эндпоинту выдачи метрик
+# TYPE prometheus_client_http_requests_total counter
+prometheus_client_http_requests_total{handler="/metrics"} 1
 ```
 
 ## Команды
